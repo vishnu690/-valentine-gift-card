@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Day Card</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<link href='https://fonts.googleapis.com/css?family=Solitreo' rel='stylesheet'>
+  <div class="container">
+    <div class="envelope"></div>
+    <div class="card">
+      <h1 class="message">
+        <br>
+        <br>Happy Valentine's Day, my love! 💖
+      </h1>
+      <div class="heart" id="pulsingHeart"></div>
+    </div>
+    <div class="cover"></div>
+    <div class="lid"></div>
+    <div class="shadow"></div>
+    <div><h1 class="made_by">Vishnu 🐒</h1></div>
+    
+  </div>
+
+<script>
+  const pulsingHeart = document.getElementById('pulsingHeart');
+
+  function pulseHeart() {
+    pulsingHeart.classList.add('pulse');
+    setTimeout(() => {
+      pulsingHeart.classList.remove('pulse');
+    }, 1000); 
+  }
+
+  setInterval(pulseHeart, 1500);
+</script>
+</body>
+</html>
