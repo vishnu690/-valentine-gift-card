@@ -2,6 +2,158 @@
     margin: 0;
     padding: 0;
   }
+  /* Larger screens */
+@media (min-width: 768px) {
+  .envelope {
+      height: 40vmin;
+      width: 63.8vmin;
+  }
+
+  .card {
+      height: 32vmin;
+      width: 68vmin;
+  }
+
+  .message {
+      top: 6vmin;
+  }
+
+  .cover,
+  .cover::after,
+  .cover::before {
+      top: 15vmin;
+  }
+
+  .lid {
+      top: 0;
+  }
+
+  .shadow {
+      top: 3vmin;
+      height: 2vmin;
+      width: 48vmin;
+  }
+
+  .heart {
+      top: 7vmin;
+      left: -1vmin;
+      width: 5vmin;
+      height: 4vmin;
+  }
+
+  .made_by {
+      padding: 20px 15px;
+      font-size: 12px;
+  }
+}
+
+/* Medium screens */
+@media (max-width: 767px) {
+  body {
+      background-size: contain;
+  }
+
+  .container {
+      top: 10vmin;
+  }
+
+  .envelope {
+      height: 20vmin;
+      width: 31.9vmin;
+  }
+
+  .card {
+      height: 16vmin;
+      width: 34vmin;
+      top: 0vmin;
+  }
+
+  .message {
+      top: 3vmin;
+  }
+
+  .cover,
+  .cover::after,
+  .cover::before {
+      top: 7.5vmin;
+  }
+
+  .lid {
+      top: 0;
+  }
+
+  .shadow {
+      top: 1.5vmin;
+      height: 1vmin;
+      width: 24vmin;
+  }
+
+  .heart {
+      top: 3.5vmin;
+      left: -0.5vmin;
+      width: 3vmin;
+      height: 2.4vmin;
+  }
+
+  .made_by {
+      padding: 10px 7.5px;
+      font-size: 8px;
+  }
+}
+
+/* Small screens */
+@media (max-width: 479px) {
+  body {
+      background-size: contain;
+  }
+
+  .container {
+      top: 20vmin;
+  }
+
+  .envelope {
+      height: 15vmin;
+      width: 23.95vmin;
+  }
+
+  .card {
+      height: 12vmin;
+      width: 25.6vmin;
+      top: 0vmin;
+  }
+
+  .message {
+      top: 2vmin;
+  }
+
+  .cover,
+  .cover::after,
+  .cover::before {
+      top: 4.5vmin;
+  }
+
+  .lid {
+      top: 0;
+  }
+
+  .shadow {
+      top: 0.5vmin;
+      height: 0.5vmin;
+      width: 12vmin;
+  }
+
+  .heart {
+      top: 1.8vmin;
+      left: -0.3vmin;
+      width: 1.5vmin;
+      height: 1.2vmin;
+  }
+
+  .made_by {
+      padding: 5px 3.75px;
+      font-size: 5px;
+  }
+}
   
   h1 {
     font-family: Solitreo;
