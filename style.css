@@ -148,6 +148,8 @@
 
   .made_by{
     padding: 19px 15px ;
+    display: flex;
+    flex-direction: row;
     margin-left: 50%;
   }
   
